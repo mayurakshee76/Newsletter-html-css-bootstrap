@@ -1,0 +1,88 @@
+body{
+
+}
+.container main{
+    padding: 0%;
+}
+.row{
+    font-family: "Bookman Old Style";
+    font-size: large;
+    /* grid-template-rows: minmax(900px,auto); */
+    /*width: auto;
+    height: auto;*/
+}
+.bold {
+    font-weight: bold;
+}
+.title-first {
+    height: fit-content;
+    text-align: left;
+}
+.title-i {
+    background-color: rgb(40, 106, 107);
+    color: white;
+}
+
+.title-second {
+    text-align: left;
+    height:fit-content;
+}
+.title-ii {
+background-color: white;
+color: rgb(246, 112, 97);
+}
+.title-iii {
+    background-color: rgb(246, 161, 131);
+    color: rgb(20, 107, 108);
+}
+.title-iv {
+    background-color: rgb(137, 185, 170);
+    color: white;
+}
+.title-third {
+    height: fit-content;
+    position: relative;
+}
+.title-third::before
+{
+    background-image: url("../img/mountain.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    content: '';
+    inset:0;
+    opacity: 0.4;
+}
+.title-v{
+    color: rgb(24, 89, 89);
+    text-align: center;
+    isolation: isolate;
+}
+.title-fourth {
+    height:fit-content;
+}
+.title-vi{
+    background-color:rgb(255, 213, 155);
+    color: rgb(255, 103, 89);
+}
+.title-vii{
+    background-color: rgb(157, 214, 152);
+    color: rgb(8, 110, 110);;
+}
+
+.title-viii{
+    background-color: white;
+    color: rgb(255, 103, 89);
+}
+.title-ix{
+    background-color: rgb(251, 171, 171);
+    color: white;
+}
+
+.title-x{
+    height: fit-content;
+    background-color: rgb(8, 110, 110);
+    color: white;
+}

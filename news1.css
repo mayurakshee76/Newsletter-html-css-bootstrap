@@ -1,0 +1,120 @@
+.container main{
+    padding: 0%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.email-newsletter small{
+
+}
+.nav-link{
+    color: rgb(24, 123, 123) !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(231, 121, 107) !important;
+}
+.row{
+    font-family: "Bookman Old Style";
+    font-size: large;
+    grid-template-rows: minmax(900px,auto);
+    height: 300px;
+}
+.email-newsletter{
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+}
+.email-heading{
+    background-color: white;
+    margin-top: 20px;
+}
+.email {
+    color: rgb(243, 97, 97); 
+    font-size:80px;
+    line-height: 30%;
+}
+
+.newsletter {
+    color: rgb(28, 116, 132); 
+    font-size:80px;
+}
+.subtitle-i {
+    color: rgb(99, 174, 171) !important; 
+    margin-bottom: 50%;
+    font-weight: bold;
+}
+
+.title-i {
+    background-color: rgb(228, 177, 156);
+    margin-bottom: 0%;
+    color: rgb(28, 116, 132);
+    font-family: "Bookman Old Style";
+}
+.font1, .font2{
+    font-weight: bold;
+}
+
+.p1, .p2, .p3 {
+    font-weight: bold;
+    text-align: center;
+}
+/*.font3{
+    font-weight: bold;
+}*/
+
+.img1 {
+    height: 125px;
+    width: 125px;
+    margin-top: 5%;
+}
+.img2 {
+    height: 125px;
+    width: 125px;
+    margin-top: 5%;
+}
+.title-ii {
+    background-color: rgb(251, 103, 103);
+    margin-bottom: 0%;
+    float: left;
+    color: white;
+    font-family: "Bookman Old Style";
+}
+.title-three{
+    text-align: center;
+    height: 110%;
+    background-image: url('../img/leaves.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Company1{
+    margin-top: 4%;
+    font-weight: bold;
+}
+@media (max-width:450px){
+    .email {
+        color: rgb(243, 97, 97); 
+        font-size:50px;
+    }
+    .newsletter {
+        color: rgb(28, 116, 132); 
+        font-size:50px;
+    }  
+    /* .body Class */
+    /* #body ID */
+    /* p 
+    body{
+        background-color: red;
+        font-size: small;
+    }*/
+}
+@media (min-width:756px){
+    /*body{
+        background-color: blue;
+    }*/
+
+}
